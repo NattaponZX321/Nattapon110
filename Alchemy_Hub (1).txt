@@ -275,10 +275,10 @@ local Section2 = Tab:Section("- Melee Status -","Left")
 local Section3 = Tab:Section("- Sword Status -","Right")
 local Notify = function(Text_i,Duration_i)
 	game.StarterGui:SetCore("SendNotification", {
-		Title = "Alchemy Hub V2",
+		Title = "Nattapon Hub V2",
 		Text = Text_i,
 		Duration = Duration_i,
-		Icon = "rbxassetid://14981376704"
+		Icon = "rbxassetid://17719617126"
 	})
 end
 Section:Toggle("Start Farm",false,function(v)
